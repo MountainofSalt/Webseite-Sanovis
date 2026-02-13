@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wie funktioniert es? — Sanitras</title>
+    <meta name="description" content="Erklärung: Wie Sanitras Laborwerte verarbeitet, darstellt und freigibt." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Sanitras</a>
+        <button id="nav-toggle" class="nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+          <span class="sr-only">Navigation ein-/ausblenden</span>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M3 6h18M3 12h18M3 18h18" stroke="#004f6b" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Hauptnavigation">
+          <ul>
+            <li><a href="index.html">Zurück zur Startseite</a></li>
+            <li><a href="#embed">Tabelle</a></li>
+            <li><a href="#prozess">Ablauf</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="page-header" style="padding:1.2rem 0;">
+        <h1>Wie funktioniert es?</h1>
+        <p class="lead">Sanitras verbindet Laborbefunde mit klaren Erklärungen, Trendanalysen und sicheren Freigabemechanismen — damit Sie Ihre Gesundheit besser verstehen und steuern können.</p>
+      </article>
+
+      <section class="intro" style="padding-bottom:1rem">
+        <h2>Kurze Einführung</h2>
+        <p>Biomarker sind messbare Indikatoren im Blut, die Auskunft über Stoffwechsel, Entzündungen oder Organfunktionen geben. Sanitras importiert Ihre Laborwerte, visualisiert Trends und liefert leicht verständliche Erklärungen, damit Sie und Ihre Ärzt:innen besser informiert sind.</p>
+      </section>
+
+      <section id="embed" class="data-section">
+        <h2>Tabelle: Beispiel Messwerte</h2>
+        <p class="muted">Unten sehen Sie eine eingebettete Tabelle (Datawrapper). Diese Beispiel-Tabelle zeigt typische Biomarker über mehrere Messzeitpunkte.</p>
+
+        <!-- Responsive Embed Wrapper: ersetzen Sie den iframe-src mit Ihrem Datawrapper-Embed-Code -->
+        <div class="embed-responsive">
+          <!-- Datawrapper Embed: eingefügt von Nutzer -->
+          <iframe title="Protokoll Gesundheitsdaten" aria-label="Table" id="datawrapper-chart-dJ26W" src="https://datawrapper.dwcdn.net/dJ26W/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="711" data-external="1"></iframe>
+        </div>
+        <script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+
+        <p class="muted" style="margin-top:.8rem">Erklärung: Die Spalten zeigen Datum, Parameter (z. B. Hb, CRP, Cholesterin), gemessenen Wert und Referenzbereich. Diese Daten helfen, Trends zu erkennen (z. B. steigender CRP) und gegebenenfalls ärztliche Abklärung anzustoßen.</p>
+      </section>
+
+      <section id="prozess" style="padding-top:1rem">
+        <h2>Ablauf: Vom Labor zum Ergebnis in Sanitras</h2>
+        <ol>
+          <li>
+            <strong>Blutentnahme:</strong> Im Labor wird das Blut genommen und die Proben analysiert.
+          </li>
+          <li>
+            <strong>Laborbericht:</strong> Das Labor erstellt einen Bericht mit Messergebnissen und Referenzbereichen.
+          </li>
+          <li>
+            <strong>Datenübertragung:</strong> Der Bericht wird sicher an Sanitras übertragen (z. B. Upload, API, Praxisfreigabe).
+          </li>
+          <li>
+            <strong>Automatische Analyse:</strong> Sanitras parst die Werte, rechnet Trends und markiert Auffälligkeiten.
+          </li>
+          <li>
+            <strong>Kontext & Erklärungen:</strong> Zu jedem Parameter liefert die App eine verständliche Erklärung und Hinweise zur Bedeutung des Werts.
+          </li>
+          <li>
+            <strong>Freigabe & Zusammenarbeit:</strong> Nutzer:innen können Ergebnisse sicher mit Ärzt:innen oder Angehörigen teilen.
+          </li>
+        </ol>
+      </section>
+
+      <section class="advantages" style="padding-top:1rem">
+        <h2>Vorteile von Sanitras</h2>
+        <div class="features-grid">
+          <article class="feature">
+            <div class="feature-media">
+              <!-- Icon-Platzhalter: Trend-Icon -->
+              <div class="img-placeholder small">Trend</div>
+            </div>
+            <h3>Trendanalyse</h3>
+            <p>Langzeitverläufe sichtbar machen — frühzeitiges Erkennen von Veränderungen.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-media">
+              <!-- Icon-Platzhalter: Erklärungen -->
+              <div class="img-placeholder small">Erkl.</div>
+            </div>
+            <h3>Verständliche Erklärungen</h3>
+            <p>Erläuterungen für jeden Wert in leicht verständlicher Sprache.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-media">
+              <!-- Icon-Platzhalter: Autonomie -->
+              <div class="img-placeholder small">Auto</div>
+            </div>
+            <h3>Patientenautonomie</h3>
+            <p>Mehr Kontrolle über eigene Gesundheitsdaten und deren Nutzung.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature-media">
+              <!-- Icon-Platzhalter: Sicherheit -->
+              <div class="img-placeholder small">Sich.</div>
+            </div>
+            <h3>Sichere Freigabe</h3>
+            <p>Verschlüsselte, kontrollierbare Freigabe an Vertrauenspersonen oder Ärzt:innen.</p>
+          </article>
+        </div>
+      </section>
+
+      <section style="padding:1.2rem 0 2rem">
+        <p class="text-center"><a class="btn primary" href="index.html">Zurück zur Startseite</a></p>
+      </section>
+    </main>
+
+    <script src="interaktiv.js"></script>
+  </body>
+</html>
