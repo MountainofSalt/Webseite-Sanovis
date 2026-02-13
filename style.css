@@ -1,6 +1,5 @@
 /*
-	style.css — Modern, responsive styles for Sanitras
-	Farbpalette: Dunkelblau (#0D1B2A), Türkis (#3AAFA9), Orange (#F08A5D), Weiß (#FFFFFF)
+  style.css — Modern, responsive styles for Sanovis
 	Mobile-first. Kommentare markieren Stellen für spätere Bild-/Diagramm-Anpassungen.
 */
 
@@ -79,6 +78,7 @@ body.nav-open .primary-nav{transform:none;opacity:1;pointer-events:auto}
 .cta-row{margin-top:1rem;display:flex;gap:.6rem}
 
 .hero-media{display:flex;justify-content:center;align-items:center}
+.hero-image{width:100%;max-width:420px;height:auto;border-radius:var(--radius);object-fit:cover;display:block}
 .img-placeholder{width:100%;max-width:420px;height:220px;border-radius:var(--radius);background:linear-gradient(135deg,var(--turquoise),var(--orange));color:var(--white);display:flex;align-items:center;justify-content:center;font-weight:700}
 /* Kommentar: Hintergrundbild für Hero kann hier ergänzt werden. Beispiel: .hero { background-image: url("path/to/hero.jpg"); background-size: cover; } */
 
